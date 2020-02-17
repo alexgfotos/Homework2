@@ -16,9 +16,25 @@
 #hero-h1 {
     font-weight: 600;
     font-size: 60px;
-    background: rgba(116, 137, 179, 0.3)
+    background: rgba(116, 137, 179, 0.5)
 }
 
 #hero-txt {
     background: rgba(116, 137, 179, 0.3)
+}
+
+#about-me-h1 {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    
+}
+
+#about-me p{
+    margin-top: 5px;
+
+}
+#about-me img {
+    margin-left:15px;
+    padding: 10px 10px 10px 0px;
+    height: 400px;
 }
