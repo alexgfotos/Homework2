@@ -1,0 +1,24 @@
+
+
+#nav-img {
+    margin-right: 5px;
+}
+
+#jumbotron {
+    background-image: url("assets/images/hero.jpg");
+    background-size:cover;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    
+}
+
+#hero-h1 {
+    font-weight: 600;
+    font-size: 60px;
+    background: rgba(116, 137, 179, 0.3)
+}
+
+#hero-txt {
+    background: rgba(116, 137, 179, 0.3)
+}
