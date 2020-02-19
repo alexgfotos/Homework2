@@ -61,9 +61,23 @@
 
         <!-- 3 CARDS -->
 
+        <!-- popper -->
+
+        <button id="button" aria-describedby="tooltip">My button</button>
+        <div id="tooltip" role="tooltip">My tooltip</div>
+    
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script>
+          const button = document.querySelector('#button');
+          const tooltip = document.querySelector('#tooltip');
+    
+          Popper.createPopper(button, tooltip);
+        </script>
+
     </div>
 
 
+    
 <!-- Fixed footer -->
 
 
@@ -79,4 +93,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+   <!-- Popover -->
+   
 </body>

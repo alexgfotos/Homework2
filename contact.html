@@ -1,9 +1,70 @@
 <!DOCTYPE html>
 <head>
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+     <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Mukta|Open+Sans&display=swap" rel="stylesheet">
+  
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="gortex">
-    
+<body class = "container" id=gortex">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img id="nav-img" src="assets/images/navcactus.png" width="50" height="50" alt="little cactus icon">
+</a>
+        <a class="navbar-brand" href="index.html">A.G.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="portfolio.html">portfolio <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="contact.html">contact</a>
+          </div>
+        </div>
+      </nav>
+
+    <!-- HERO -->
+
+    <div id="jumbotron" class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 id="hero-h1" class="display-4">ALEJANDRO GONZALEZ</h1>
+          <p id="hero-txt" class="lead">Developer of the web, photography, and xerophytes.</p>
+
+        </div>
+      </div>
+    <form id="form" class= "bg-dark">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Example select</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Example multiple select</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
 </body>
