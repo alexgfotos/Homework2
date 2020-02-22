@@ -5,7 +5,7 @@ body {
 .darken-overlay{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .about-me-text {
@@ -69,32 +69,32 @@ body {
 /* Portfolio styles */
 
 .portfolio-card {
-    margin-top:10px;
-    height: 400px;
+    /* margin-top:10px; */
+    /* height: 400px; */
 }
 
 #card1 {
-    background-image: url("assets/images/card1.jpeg");
-    background-size:cover;
-    margin-right: 15px;
-    margin-bottom:5px;
+    /* background-image: url("assets/images/card1.jpeg"); */
+    /* background-size:cover; */
+    /* margin-right: 15px; */
+    /* margin-bottom:5px; */
 }
 
 #card2 {
-    background-image: url("assets/images/card2.jpeg");
-    background-size:cover;
+    /* background-image: url("assets/images/card2.jpeg"); */
+    /* background-size:cover; */
 }
 
 #card3 {
-    background-image: url("assets/images/card3.jpg");
+    /* background-image: url("assets/images/card3.jpg");
     background-size:cover;
-    margin-right: 15px;
-    margin-bottom:5px;
+    margin-right:15;
+    margin-bottom:5px; */
 }
 
 #card4 {
-    background-image: url("assets/images/card4.jpeg");
-    background-size:cover;
+    /* background-image: url("assets/images/card4.jpeg");
+    background-size:cover; */
     
 }
 
@@ -105,5 +105,14 @@ body {
     text-align: center;
     font-size: 30px;
     font-family: 'Mukta', sans-serif;
-    margin-top:135px;
+    /* margin-top:135px; */
+    position:absolute;
+    top: 33%;
+    left: 0;
+    /* width: 100%; */
+    /* padding-right: 15px; */
+}
+
+.img-card {
+    width:100%;
 }
