@@ -69,13 +69,30 @@ body {
 /* Portfolio styles */
 
 .card {
-    /* margin-top:10px; */
+    margin-top:10px;
+    height: 300px;
 }
 
 #card1 {
     background-image: url("assets/images/hero.jpg");
     background-size:cover;
 }
+
+#card2 {
+    background-image: url("assets/images/hero.jpg");
+    background-size:cover;
+}
+
+#card3 {
+    background-image: url("assets/images/hero.jpg");
+    background-size:cover;
+}
+
+#card4 {
+    background-image: url("assets/images/hero.jpg");
+    background-size:cover;
+}
+
 
 #card-link {
     color: white;
