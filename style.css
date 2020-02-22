@@ -18,7 +18,7 @@ body {
 }
 
 #jumbotron {
-    background-image: url("assets/images/hero.jpg");
+    background-image: url("assets/images/hero2.jpg");
     background-size:cover;
     
 }
@@ -56,10 +56,30 @@ body {
     height: 400px;
 }
 
+/* Contact styles */
+
 #form {
     /* color: white; */
 }
 
 #sendbtn {
     margin-top: 15px;
+}
+
+/* Portfolio styles */
+
+.card {
+    /* margin-top:10px; */
+}
+
+#card1 {
+    background-image: url("assets/images/hero.jpg");
+    background-size:cover;
+}
+
+#card-link {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Mukta', sans-serif;
 }
