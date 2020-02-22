@@ -12,59 +12,138 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class = "container" id=gortex">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <img id="nav-img" src="assets/images/navcactus.png" width="50" height="50" alt="little cactus icon">
-</a>
-        <a class="navbar-brand" href="index.html">A.G.</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="portfolio.html">portfolio <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="contact.html">contact</a>
-          </div>
+<body class = "container">
+    <!-- NAV home/portfolio/contact-->
+    <nav id="navtext" class="navbar navbar-expand-lg navbar-dark" style="background-color: grey;">
+      <img id="nav-img" src="assets/images/navcactus.png" width="50" height="50" alt="little cactus icon">
+      </a>
+      <a class="navbar-brand" href="index.html">Alejandro G.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="contact.html">Contact Me</a>
         </div>
-      </nav>
+      </div>
+    </nav>
+
 
     <!-- HERO -->
 
-    <div id="jumbotron" class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 id="hero-h1" class="display-4">ALEJANDRO GONZALEZ</h1>
-          <p id="hero-txt" class="lead">Developer of the web, photography, and xerophytes.</p>
+    <div id="jumbotron" class="jumbotron jumbotron-fluid darken-overlay">
+      <div class="container">
+        <h1 id="hero-h1" class="display-4">ALEJANDRO GONZALEZ</h1>
+        <p id="hero-txt" class="lead">Developer of the web, photography, and xerophytes.</p>
 
-        </div>
       </div>
-    <form id="form" class= "bg-dark">
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Example select</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+    </div>
+
+      <!-- Contact form -->
+
+    <form id="form">
+        <!--Section: Contact v.2-->
+<section class="mb-4">
+
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Please do not hesitate to contact me directly.</p>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="name" class="">Your name</label>  
+                        <input type="text" id="name" name="name" class="form-control">
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="email" class="">Your email</label>  
+                        <input type="text" id="email" name="email" class="form-control">
+                      
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <p></p>
+                        <label for="subject" class="">Subject</label>  
+                        <input type="text" id="subject" name="subject" class="form-control">
+                          
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                        <p></p>
+                        <label for="message">Your message</label>
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div id="sendbtn" class="text-center text-md-left">
+              <a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-right">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  Tucson, AZ USA
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  + 01 234 567 89
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  alexgfotos@gmail.com
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
       </form>
 </body>

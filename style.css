@@ -1,5 +1,16 @@
 
 
+.darken-overlay div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-me-text {
+    /* word-wrap: break-word; */
+    float: left;
+}
+
 #nav-img {
     margin-right: 5px;
 }
@@ -7,20 +18,24 @@
 #jumbotron {
     background-image: url("assets/images/hero.jpg");
     background-size:cover;
-    text-align: center;
-    font-family: 'Mukta', sans-serif;
-    color: white;
     
 }
 
 #hero-h1 {
     font-weight: 600;
     font-size: 60px;
-    background: rgba(116, 137, 179, 0.5)
+    filter: brightness(100%);
+    color: white;
+    /* background: rgba(116, 137, 179, 0.5); */
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
 }
 
 #hero-txt {
-    background: rgba(116, 137, 179, 0.3)
+    /* background: rgba(116, 137, 179, 0.3); */
+    color: white;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
 }
 
 #about-me-h1 {
@@ -39,11 +54,10 @@
     height: 400px;
 }
 
-#gortex {
-    background-image: url("https://media1.giphy.com/media/10djOuKKjkPsIw/source.gif");
-    background-repeat: repeat;
+#form {
+    /* color: white; */
 }
 
-#form {
-    color: white;
+#sendbtn {
+    margin-top: 15px;
 }

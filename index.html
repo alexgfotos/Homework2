@@ -1,99 +1,100 @@
 <!DOCTYPE html>
 
 <head>
-    
+  <!-- Device scaler -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Mukta|Open+Sans&display=swap" rel="stylesheet">
-  
+
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <!-- my css -->
   <link rel="stylesheet" href="style.css">
 
-    <title>Alejandro Gonzalez</title>
+  <title>Alejandro Gonzalez</title>
 </head>
 
 <body>
 
-    <div class="container">
-        <!-- NAV home/portfolio/contact-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <img id="nav-img" src="assets/images/navcactus.png" width="50" height="50" alt="little cactus icon">
-  </a>
-            <a class="navbar-brand" href="index.html">A.G.</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="portfolio.html">portfolio <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="contact.html">contact</a>
-              </div>
-            </div>
-          </nav>
-
-        <!-- HERO -->
-
-        <div id="jumbotron" class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 id="hero-h1" class="display-4">ALEJANDRO GONZALEZ</h1>
-              <p id="hero-txt" class="lead">Developer of the web, photography, and xerophytes.</p>
-    
-            </div>
-          </div>
-            
-        <!-- about me w/image and wrapped text -->
-        <p><h1 id="about-me-h1">ABOUT ME</h1></1></p>
-        <article class=row id="about-me">
-          <div class="col-">
-            
-          <img src="assets/images/announcement no text.jpg" alt-text="pregancy announcement">
+  <div class="container">
+    <!-- NAV home/portfolio/contact-->
+    <nav id="navtext" class="navbar navbar-expand-lg navbar-dark" style="background-color: grey;">
+      <img id="nav-img" src="assets/images/navcactus.png" width="50" height="50" alt="little cactus icon">
+      </a>
+      <a class="navbar-brand" href="index.html">Alejandro G.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="contact.html">Contact Me</a>
         </div>
+      </div>
+    </nav>
 
-          <div class="col-9"><p>Hello I am Alejandro.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veritatis labore error doloribus delectus sequi, perspiciatis modi dolore voluptas exercitationem facilis recusandae dolores molestias dolorum nesciunt vitae, nobis, ratione distinctio.</p>
-          <p>Hello I am still Alejandro.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veritatis labore error doloribus delectus sequi, perspiciatis modi dolore voluptas exercitationem facilis recusandae dolores molestias dolorum nesciunt vitae, nobis, ratione distinctio.</p>
-        </div>
-        
-        </article>
+    <!-- HERO -->
 
+    <div id="jumbotron" class="jumbotron jumbotron-fluid darken-overlay">
+      <div class="container">
+        <h1 id="hero-h1" class="display-4">ALEJANDRO GONZALEZ</h1>
+        <p id="hero-txt" class="lead">Developer of the web, photography, and xerophytes.</p>
 
-        <!-- 3 CARDS -->
-
-        <!-- popper -->
-
-        <button id="button" aria-describedby="tooltip">My button</button>
-        <div id="tooltip" role="tooltip">My tooltip</div>
-    
-        <script src="https://unpkg.com/@popperjs/core@2"></script>
-        <script>
-          const button = document.querySelector('#button');
-          const tooltip = document.querySelector('#tooltip');
-    
-          Popper.createPopper(button, tooltip);
-        </script>
-
+      </div>
     </div>
 
+    <!-- about me w/image and wrapped text -->
+  
+    <h1 id="about-me-h1">ABOUT ME</h1>
+      
+    <article id="about-me" class="row about-me-text">
 
-    
-<!-- Fixed footer -->
+      <div class="col-">
+
+        <img src="assets/images/announcement no text.jpg" alt-text="pregancy announcement">
+      </div>
+
+      <div class="col-sm-9">
+        <p>Hello I am Alejandro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veritatis labore error
+          doloribus delectus sequi, perspiciatis modi dolore voluptas exercitationem facilis recusandae dolores
+          molestias dolorum nesciunt vitae, nobis, ratione distinctio.</p>
+        <p>Hello I am still Alejandro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veritatis labore
+          error doloribus delectus sequi, perspiciatis modi dolore voluptas exercitationem facilis recusandae dolores
+          molestias dolorum nesciunt vitae, nobis, ratione distinctio.</p>
+      </div>
+
+    </article>
 
 
-    
+    <!-- 3 CARDS -->
 
-    <!-- Boostrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
 
-   <!-- Popover -->
-   
+
+
+  </div>
+
+
+
+  <!-- Fixed footer -->
+
+
+
+
+  <!-- Boostrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- Popover -->
+
 </body>
