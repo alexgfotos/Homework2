@@ -69,8 +69,8 @@ body {
 /* Portfolio styles */
 
 .portfolio-card {
-    /* margin-top:10px; */
-    /* height: 400px; */
+    margin-top:30px;
+    height: 400px;
 }
 
 #card1 {
@@ -105,12 +105,15 @@ body {
     text-align: center;
     font-size: 30px;
     font-family: 'Mukta', sans-serif;
-    /* margin-top:135px; */
     position:absolute;
-    top: 33%;
-    left: 0;
-    /* width: 100%; */
+    top: 40%;
+    left: 0;   
+    /* width: 91.5%; */
     /* padding-right: 15px; */
+}
+
+.card-link:hover{
+    color:grey;
 }
 
 .img-card {
