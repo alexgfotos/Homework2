@@ -1,5 +1,18 @@
 # homework2
 
+For this project I attempted to create a portfolio website that meets my style.
+
+index.html: I wrote a longer bio than I would probably use just to see if the text would wrap below the image or now.  In a likeliness I will shorten the bio and use a smaller font.
+
+I thought making a "hero" image might be fun, though perhaps it creates unnecessary clutter on the other pages.
+
+portfolio.html: I made 4 "cards" from scratch because the bootsrap cards were giving me issues.  It was a challenge to get the text with the "darken overlay" to fit exactly within the container.  I settled on a smaller overlay for now.
+
+contact.html: Pretty bare bones. The buttom does nothing.
+
+
+
+
 
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
