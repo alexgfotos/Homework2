@@ -84,8 +84,8 @@ body {
 /* Portfolio styles */
 
 .portfolio-card {
-    margin-bottom:30px;
     height: 400px;
+    margin-bottom: 30px;
 }
 
 
