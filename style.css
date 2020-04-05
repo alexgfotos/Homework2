@@ -110,7 +110,7 @@ body {
     font-family: 'Mukta', sans-serif;
     position:absolute;
     left: 25%;
-    bottom: 0;
+    bottom: 5%;
     background-color: rgba(0, 0, 0, 0.7);
     /* width: 91.5%; */
     /* padding-right: 15px; */
@@ -118,6 +118,20 @@ body {
 
 .card-link:hover{
     color:grey;
+}
+
+.repo-link {  
+    width: 50%;    
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Mukta', sans-serif;
+    position:absolute;
+    left: 25%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* width: 91.5%; */
+    /* padding-right: 15px; */
 }
 
 .img-card {
