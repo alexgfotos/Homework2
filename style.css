@@ -17,6 +17,11 @@ body {
     float: left;
 }
 
+.containr {
+    display: flex;
+    justify-content: center;
+}
+
 #footer {
     position:fixed;
     bottom:0px;
@@ -89,7 +94,7 @@ body {
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
-    width: 75vw;
+    /* width: 75vw; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -105,8 +110,8 @@ body {
     font-family: 'Mukta', sans-serif;
     position:absolute;
     left: 25%;
-    top: 40%;
-    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
     /* width: 91.5%; */
     /* padding-right: 15px; */
 }
@@ -118,3 +123,7 @@ body {
 .img-card {
     width:100%;
 }
+
+.img-card:hover {
+    width: 95%;
+  }
