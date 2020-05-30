@@ -17,9 +17,8 @@ body {
     float: left;
 }
 
-.containr {
-    display: flex;
-    justify-content: center;
+.container {
+    background-color:rgb(255,255,255, .5);
 }
 
 #footer {
@@ -90,6 +89,7 @@ body {
 
 /* Portfolio styles */
 
+
 .portfolio-card {
     margin-bottom: 25px;
     margin-left: auto;
@@ -106,11 +106,11 @@ body {
     width: 50%;    
     color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Mukta', sans-serif;
     position:absolute;
     left: 25%;
-    bottom: 5%;
+    bottom: 15%;
     background-color: rgba(0, 0, 0, 0.7);
     /* width: 91.5%; */
     /* padding-right: 15px; */
@@ -135,9 +135,16 @@ body {
 }
 
 .img-card {
+    box-shadow: 5px 10px 5px black;
+    /* border-style: solid;
+    border-width: 2px;  */
+    border-color: black;
     width:100%;
+    opacity: 50%;
+    background-color: black;
 }
 
 .img-card:hover {
     width: 95%;
+    opacity: 100%
   }
